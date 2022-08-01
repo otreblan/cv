@@ -1,4 +1,4 @@
-TARGET = main.pdf
+TARGET = cv.pdf
 
 default: $(TARGET)
 
