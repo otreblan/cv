@@ -1,0 +1,104 @@
+\documentclass[10pt, a4paper]{moderncv}
+
+\moderncvtheme[blue]{classic}
+
+\usepackage[scale=0.81]{geometry}
+\recomputelengths
+
+\firstname{Alberto}
+\familyname{Oporto}
+\email{otreblain@gmail.com}
+%\title{Estudiante de Ciencia de la Computación}
+\mobile{+51 915365499}
+\address{Lima, Perú}
+\extrainfo{
+	%\linkedinsocialsymbol \httplink{linkedin.com/in/otreblan}\\
+	\githubsocialsymbol \httplink{github.com/otreblan}
+}
+
+\begin{document}
+
+\maketitle
+% Ajustar la presentación de acuerdo a los requerimientos de la oferta.
+% 4 líneas
+%\section{Presentación}
+%Estudio Ciencia de la Computación en UTEC.
+%Pertenezco al tercio superior de mi carrera.
+%Tengo interés en la tecnología y en desarrollar continuamente mis competencias tecnológicas, especialmente en proyectos Open Source.
+%%Soy una persona autodidacta en el uso de nuevas herramientas, analizo y resuelvo problemas efectivamente.
+%Además, muestro escucha activa y apertura ante cualquier feedback.
+
+% TODO: Me falta un objetivo
+
+\section{Experience}
+% TODO: Potencial
+\cventry{2023-}{Software Engineer}{Titanius Consulting}{Lima}{Perú}{
+	Developed a backend with C\# ASP.net. Also wrote Pandas scripts to clean and insert data into the Database. Finally I containerized and automated the deployment (CI) of the project.
+}
+\cventry{2023}{Programmer Trainee}{Heinz Glas}{Lima}{Perú}{
+	Depeloped an internal WebApp with C\# ASP.NET for production plant automatization. Also I wrote Bash scripts to interface with legacy systems.
+%Desarrollé una aplicación en C\# .NET con ASP.NET para la automatización de procesos de la planta de producción. Además escribí scripts en Bash para obtener información desde los servidores Linux.
+}
+
+\section{Education}
+\cventry{2018-2024}{Bachelor of Computer Science}{Universidad de Ingeniería y Tecnología - UTEC}{Lima}{Perú}{}
+
+\section{Languages}
+\cvlanguage{Spanish}{Native}{}
+\cvlanguage{English}{TOEFL ITP C1}{}
+\cvlanguage{Japanese}{JLPT N4}{}
+
+\section{Programming languages}
+\cvlistitem{Python (and Pandas)}
+\cvlistitem{C/C++}
+\cvlistitem{Bash}
+\cvlistitem{C\#}
+\cvlistitem{SQL}
+
+\section{Tech skills}
+\cvlistitem{Linux}
+\cvlistitem{Git/Github}
+\cvlistitem{Docker}
+\cvlistitem{Arduino/esp32/esp8266}
+
+\section{Projects}
+\cventry{}{Arch User Repository maintainer}{\httplink{aur.archlinux.org/account/otreblan}}{}{}
+{
+	I am in charge of packaging, updating and patching apps for the Arch User Repository.
+}
+\cventry{}{IOT UV sensor}{\httplink{github.com/otreblan/esp8266-uv}}{}{}
+{
+	%Con un esp8266 y un sensor de luz uv medimos la radiación a lo largo del día. Programado en C++ con Espressif RTOS.
+	Utilized an esp8266, a 3d printed case and an uv light sensor to log solar radiantion. Coded the firmware with C++ and Espressif RTOS.
+}
+\cventry{}{Mini supercomputer}{\httplink{github.com/otreblan/mini-cluster}}{}{}
+{
+	Integrated multiple Raspberry Pis into a HPC cluster.
+	Then tested it with OpenMPI.
+	%Mi equipo y yo configuramos 7 Raspberry Pis para crear un mini cluster HPC.
+	%Luego ejecutamos pruebas de escalabilidad con OpenMPI.
+}
+\cventry{}{Game engine}{\httplink{github.com/otreblan/vulkan-hello}}{}{}
+{
+	Implemented with C++ and Vulkan a prototype game engine based on Entity Component System.
+	%Programé con C++ y Vulkan un motor de videojuegos con un paradigma basado en datos (Entity Component System).
+	%Soporta físicas en tiempo real, input del usuario, importación de modelos 3D y renderización rasterizada.
+}
+%\cventry{2021}{Compilador en C/C++ con semántica reducida}{\httplink{github.com/otreblan/cce}}{}{}
+%{
+%	Programé un compilador de una versión reducida de C en español.
+%	Con propósito educativo.
+%	Usé C++, C, Bison y Flex.
+%}
+%\cventry{2019}{Videojuego}{\httplink{github.com/L603/SpaceClones}}{}{}
+%{
+%	Guié a mi equipo en el desarrollo de un videojuego basado en Space Invaders,
+%	hecho en C++; por lo cual recibimos un reconocimiento por nuestro trabajo destacado.
+%}
+
+%\section{Voluntariado}
+
+%\section{Certificaciones}
+% TODO: Linkedin
+
+\end{document}

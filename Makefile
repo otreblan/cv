@@ -1,4 +1,4 @@
-TARGET = cv-alberto-oporto.pdf
+TARGET = cv-alberto-oporto.pdf cv-alberto-oporto-en.pdf
 
 default: $(TARGET)
 
