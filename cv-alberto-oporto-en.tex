@@ -33,15 +33,24 @@
 \section{Experience}
 % TODO: Potencial
 \cventry{05/2023 - Present}{Software Engineer}{TITANIUS CONSULTING S.R.L.}{Lima}{Perú}{
-	Developed the backend of an internal service with C\# ASP.net. Then I wrote Pandas scripts to clean and insert data into the Database. Finally I containerized and automated the deployment of the project with Docker Compose and Gitlab CI.
+	\begin{itemize}
+		\item Developed backend microservices in multiple languages.
+		\item Containerized CSR frontends and Java, C\# and Node based backends for local development and deployment.
+		\item Automated SSL certificate renewal with Caddy and Let's Encrypt.
+		\item Wrote Gitlab CI pipelines for automatic building, testing and deployment on self hosted Linux VPS.
+	\end{itemize}
 }
 \cventry{02/2023 - 04/2023}{Programmer Trainee}{HEINZ - GLAS PERU S.A.C.}{Lima}{Perú}{
-	Developed an internal WebApp with C\# ASP.NET for production plant automatization. Also I wrote shell scripts to interface with legacy systems.
+	\begin{itemize}
+		\item Developed an internal MVC WebApp with C\# ASP.NET for production plant automatization.
+		\item Deployed a self hosted Gitea instance on a legacy Windows Server.
+		\item Wrote shell scripts to interface with legacy Linux systems.
+	\end{itemize}
 %Desarrollé una aplicación en C\# .NET con ASP.NET para la automatización de procesos de la planta de producción. Además escribí scripts en Bash para obtener información desde los servidores Linux.
 }
 
 \section{Education}
-\cventry{Class of 2024}{Bachelor of Computer Science}{Universidad de Ingeniería y Tecnología - UTEC}{Lima}{Perú}{}
+\cventry{2018 - 2024}{Bachelor of Computer Science}{Universidad de Ingeniería y Tecnología - UTEC}{Lima}{Perú}{}
 
 \section{Languages}
 \cvlanguage{Spanish}{Native}{}
@@ -49,17 +58,19 @@
 \cvlanguage{Japanese}{JLPT N3}{}
 
 \section{Programming languages}
-\cvlistitem{C\#}
 \cvlistitem{C/C++}
+\cvlistitem{Java}
+\cvlistitem{Typescript}
 \cvlistitem{Bash}
+\cvlistitem{C\#}
 \cvlistitem{Python}
 
 \section{Tech skills}
 \cvlistitem{Linux}
-\cvlistitem{Docker}
-\cvlistitem{Git}
+\cvlistitem{CI/CD}
+\cvlistitem{Docker / Docker compose}
+\cvlistitem{Git / Github / Gitlab / Gitea}
 \cvlistitem{SQL}
-\cvlistitem{Arduino/esp32/esp8266}
 
 \section{Projects}
 \cventry{}{Arch User Repository maintainer}{\httplink{aur.archlinux.org/account/otreblan}}{}{}
@@ -71,13 +82,13 @@
 	%Con un esp8266 y un sensor de luz uv medimos la radiación a lo largo del día. Programado en C++ con Espressif RTOS.
 	My team and I utilized an esp8266, a 3d printed case and an uv light sensor to log solar radiantion. I coded the firmware with C++ and Espressif RTOS.
 }
-\cventry{}{Mini supercomputer}{\httplink{github.com/otreblan/mini-cluster}}{}{}
-{
-	My team and I integrated multiple Raspberry Pis into a HPC cluster.
-	Then we tested it with OpenMPI.
-	%Mi equipo y yo configuramos 7 Raspberry Pis para crear un mini cluster HPC.
-	%Luego ejecutamos pruebas de escalabilidad con OpenMPI.
-}
+%\cventry{}{Mini supercomputer}{\httplink{github.com/otreblan/mini-cluster}}{}{}
+%{
+%	My team and I integrated multiple Raspberry Pis into a HPC cluster.
+%	Then we tested it with OpenMPI.
+%	%Mi equipo y yo configuramos 7 Raspberry Pis para crear un mini cluster HPC.
+%	%Luego ejecutamos pruebas de escalabilidad con OpenMPI.
+%}
 \cventry{}{Game engine}{\httplink{github.com/otreblan/vulkan-hello}}{}{}
 {
 	Implemented with C++ and Vulkan a game engine prototype based on Entity Component System.
